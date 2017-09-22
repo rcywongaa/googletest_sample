@@ -12,4 +12,4 @@ target_link_libraries(googletest_sample ${CMAKE_THREAD_LIBS_INIT} ${PROJECT_SOUR
 # Use following if gtest is installed
 
 #find_package (GTest REQUIRED)
-#target_link_libraries(googletest_sample ${CMAKE_THREAD_LIBS_INIT} ${GTEST_BOTH_LIBRARIES})
+#target_link_libraries(googletest_sample ${CMAKE_THREAD_LIBS_INIT} ${GTEST_BOTH_LIBRARIES} /usr/local/lib64/libgmock.a)
